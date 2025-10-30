@@ -8,16 +8,18 @@ on:
 
 jobs:
   security_scan:
+    name: Run tfsec security scan
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: hashicorp/setup-terraform@v3
+
       - name: Run tfsec scan
-        uses: aquasecurity/tfsec-action@v1
+        uses: aquasecurity/tfsec-action@v1.0.3
         with:
           soft_fail: true   
-
   terraform_plan_apply:
+    name: Terraform Plan & Apply
     runs-on: ubuntu-latest
     needs: security_scan
     if: github.event_name == 'push'
