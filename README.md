@@ -1,6 +1,6 @@
 #  MultiCloud Infrastructure Deployment 
 
-## 🧭 Project Overview
+## Project Overview
 To provision and connect infrastructure across AWS and Azure using Terraform  showing how a single Infrastructure-as-Code (IaC) tool can manage resources on multiple clouds simultaneously.
 The goal is to showcase **multi-cloud infrastructure as code (IaC)** provisioning and managing resources across two cloud platforms consistently.
 
@@ -29,7 +29,7 @@ Flow:
 
 4. Outputs are displayed automatically after Terraform apply.   
 
-### 🔒 DevSecOps Integration: tfsec
+###  DevSecOps Integration: tfsec
  Security enforcement is embedded directly into the Terraform workflow using tfsec + pre-commit hooks ensuring vulnerabilities and misconfigurations are caught before deployment.
  ### What This Proves in Real-World DevOps:
  1. Automatic Terraform security scanning
