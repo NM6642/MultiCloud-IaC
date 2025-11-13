@@ -1,4 +1,4 @@
-# 🌍 MultiCloud Infrastructure Deployment 
+#  MultiCloud Infrastructure Deployment 
 
 ## 🧭 Project Overview
 To provision and connect infrastructure across AWS and Azure using Terraform  showing how a single Infrastructure-as-Code (IaC) tool can manage resources on multiple clouds simultaneously.
@@ -6,7 +6,7 @@ The goal is to showcase **multi-cloud infrastructure as code (IaC)** provisionin
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 ![Architecture Diagram](architecture.png)
 ## How It Works
@@ -46,7 +46,7 @@ Flow:
 | Unified lifecycle commands | Faster provisioning & cleanup |
 | Hybrid cloud demonstration | Strong DevOps use case |
 
-### ☁️ AWS Components
+###  AWS Components
 
 * VPC – Creates a secure network environment for the EC2 instance.
 
@@ -56,7 +56,7 @@ Flow:
 
 * EC2 Instance – A Linux-based VM with a public IP.
 
-### ☁️ Azure Components
+###  Azure Components
 
 * Resource Group – Logical container for Azure resources.
 
